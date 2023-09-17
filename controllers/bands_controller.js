@@ -1,7 +1,7 @@
 //Dependencies
 const bands = require('express').Router()
 const db = require('../models')
-const { Band, MeetGreet, SetTime } = db 
+const { Band, MeetGreet, SetTime, Event } = db 
 const { Op } = require('sequelize')
    
 // FIND ALL BANDS
